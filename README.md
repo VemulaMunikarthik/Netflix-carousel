@@ -1,1 +1,1 @@
-To run app clone the reop and run the app.py
+To run app clone the repo and run the app.py
