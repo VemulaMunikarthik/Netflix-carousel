@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">MYFLIX</h1>
+    </header>
+    <div class="carousel-container">
+        <div class="carousel">
+            <button id="prev-btn">&lt;</button>
+            <div class="carousel-items" id="carousel-items"></div>
+            <button id="next-btn">&gt;</button>
+        </div>
+        <div class="dots" id="dots"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
